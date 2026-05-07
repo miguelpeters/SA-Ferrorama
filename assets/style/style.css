@@ -134,3 +134,19 @@ input {
 }
 
 
+/* home */
+
+.CadastrarText {
+   margin-left: 40px;
+   color: rgb(253, 252, 248);
+   font-size: 25px;
+}
+
+.Perfil {
+  margin-left: 800px;
+}
+
+.DE-TRAIN_home {
+   margin-left: 15px;
+}
+
