@@ -1,3 +1,4 @@
+/* index */
 #icon {
    width: 65px;
    border-radius: 10px;
@@ -88,3 +89,48 @@ body {
    align-items: center;
    padding: 30px;
 }
+
+/* cadastro */
+
+#BlocoCadastro{
+
+    padding: 25px;
+    width: 500px;
+    border-radius: 25px;
+    margin: 25px;
+     background-color: rgb(2, 80, 63);
+
+}
+
+#FormsCadastro{
+
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+input {
+
+
+    border: none;
+    padding-left: 10px;
+    border-radius: 15px;
+    margin: 5px;
+    cursor: pointer;
+
+}
+
+.ButtonCadastro {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 15px;
+    border-radius: 15px;
+    size: 30px;
+    font-size: larger;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+
