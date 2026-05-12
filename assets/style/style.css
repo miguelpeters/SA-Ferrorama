@@ -207,8 +207,11 @@ button:hover {
 }
 
 #test{
-   width: 400px;
    background-color: aqua;
-   padding: 100px;
-   padding-bottom: 745px;
+   padding: 300px;
+}
+
+
+.flex {
+   display: flex;
 }
