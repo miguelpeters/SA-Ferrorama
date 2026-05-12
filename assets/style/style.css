@@ -1,4 +1,4 @@
-/* index */
+/* Index */
 #icon {
    width: 65px;
    border-radius: 10px;
@@ -89,7 +89,7 @@ body {
    padding: 30px;
 }
 
-/* cadastro */
+/* Cadastro */
 
 #centrobloco {
    display: flex;
@@ -175,7 +175,7 @@ button:hover {
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    
 }
-/* home */
+/* Home */
 
 .CadastrarText {
    margin-left: 40px;
@@ -189,4 +189,26 @@ button:hover {
 
 .DE-TRAIN_home {
    margin-left: 15px;
+}
+
+/* Login */
+
+#cabecarioLogin {
+   display: flex;
+   align-items: center;
+   width: 600px;
+   height: 100px;
+
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   background-color: rgb(2, 80, 63);
+   color: rgb(253, 252, 248);
+   font-size: large;
+   
+}
+
+#test{
+   width: 400px;
+   background-color: aqua;
+   padding: 100px;
+   padding-bottom: 745px;
 }
