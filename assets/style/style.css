@@ -241,6 +241,7 @@ button:hover {
 }
 
 .ImageLogin {
+   margin-right: 200px;
    border: 5px solid rgb(2, 70, 49);
    border-radius: 5px;
 }
@@ -273,7 +274,7 @@ button:hover {
    padding-left: 15px;
    margin-left: 40px;
 }
-
+                                   
 #FormsLogin {
    justify-content: center;
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -289,4 +290,27 @@ button:hover {
 
 #loginLad {
    margin-left: 40px;
+
+}
+
+.loginImgText {
+   justify-content: center;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color: #044d44;
+   font-size: 35px;
+
+   margin-left: 200px;
+}
+
+#logImg {
+   height: 500px;
+}
+
+#checkLogin {
+   display: inline-block;
+   cursor: pointer;
+}
+
+#checkLogin input {
+   display: none;
 }
