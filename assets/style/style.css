@@ -228,3 +228,29 @@ button:hover {
 .DE-TRAIN_cadastro {
    margin-left: 15px;
 }
+
+.teste1 {
+
+
+
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   background-color: rgb(2, 80, 63);
+   color: rgb(253, 252, 248);
+   font-size: large;
+}
+
+.blocoLogin {
+   padding-top: 15px;
+   padding-bottom: 640px;
+   background-color: rgb(4, 107, 85);
+   width: 550px;
+
+}
+
+.ImageLogin {
+   display: flex;
+   align-items: center;
+
+   border: 5px solid rgb(2, 70, 49);
+   border-radius: 25px;
+}
