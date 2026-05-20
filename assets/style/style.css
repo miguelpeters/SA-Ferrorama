@@ -314,3 +314,20 @@ button:hover {
 #checkLogin input {
    display: none;
 }
+
+/* usuarios */
+
+.container_tabela_usuarios{
+   display: flex;
+   justify-content: center;
+   margin-top: 150px;
+}
+
+.tabela_usuarios{
+   width: 50%;
+   font-size: 20px;
+}
+
+.pagina_usuarios{
+   background-color: rgb(253, 252, 248);
+}
