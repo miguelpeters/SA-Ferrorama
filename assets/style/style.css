@@ -367,3 +367,18 @@ button:hover {
 .pagina_usuarios{
    background-color: rgb(253, 252, 248);
 }
+
+.CadastrarText {
+   margin-left: 40px;
+   color: rgb(253, 252, 248);
+   font-size: 25px;
+   height: 75px;
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+   align-items: center;
+
+   padding: 0 20px;
+   flex-direction: column;
+   gap: 5px;
+}
