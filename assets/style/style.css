@@ -202,15 +202,14 @@ button:hover {
 .menu{
     display: flex;
     gap: 25px;
-    margin-left: 20px;
+    margin-left: 20px
 }
 
 .menu a{
     color: white;
-    text-decoration: underline;
     font-size: 14px;
     font-weight: bold;
-
+   text-decoration:dotted;
 }
 
 .lado-direito{
