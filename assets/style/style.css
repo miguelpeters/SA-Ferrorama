@@ -382,3 +382,22 @@ button:hover {
    flex-direction: column;
    gap: 5px;
 }
+
+/*CadastroSensor*/
+
+.ButtonCadastroS {
+
+   padding: 6px;
+   margin-top: 15px;
+   size: 30px;
+   font-size: larger;
+   cursor: pointer;
+   text-align: center;
+   border-radius: 10px;
+   background-color: rgb(0, 80, 73);
+   color: rgb(253, 253, 234);
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-weight: bold;
+   transition: 0.3s;
+   width: 300px;
+}
