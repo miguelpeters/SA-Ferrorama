@@ -179,29 +179,65 @@ button:hover {
 
 /* Home */
 
-.CadastrarText {
-   margin-left: 40px;
+.cabecalho{
+    background-color: rgb(2, 80, 63);
+    height: 75px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 15px;
+}
+
+.lado-esquerdo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo{
+    height: 50px;
+}
+
+.menu{
+    display: flex;
+    gap: 25px;
+    display: block;
+}
+
+.menu a{
+    color: white;
+    text-decoration: underline;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.lado-direito{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: x-large;
+}
+
+.perfil{
+    height: 45px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.DE-TRAIN2 {
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   background-color: rgb(2, 80, 63);
    color: rgb(253, 252, 248);
-   font-size: 25px;
-   height: 75px;
-   display: flex;
-   flex-direction: column;
-   gap: 5px;
-   align-items: center;
-
-   padding: 0 20px;
-   flex-direction: column;
-   gap: 5px;
+   font-size: xx-large;
 }
-
-.Perfil {
-   margin-left: 800px;
-}
-
-.DE-TRAIN_home {
-   margin-left: 15px;
-}
-
 /* Login */
 
 #cabecarioLogin {
