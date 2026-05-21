@@ -4,13 +4,17 @@ body {
     margin: 0px;
 }
 
+/* Nav Geral*/
+
 .navGeral {
-    padding: 1px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #044d44;
-    color: #faf9f6;
-    font-size: 15px;
 }
 
+#ltrNavGeral {
+    display: flex;
 
-
+    margin-left: 15px;
+    color: #faf9f6;
+    font-size:25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
