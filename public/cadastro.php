@@ -1,3 +1,32 @@
+<?php
+
+include '../infra/conexao.php';
+
+if($_SERVER["REQUEST_METHOD"] == "POST"){
+    $nome = $_POST['nome'];
+    $email = $_POST['email'];
+    $telefone = $_POST['telefone'];
+    $senha = $_POST['senha'];
+
+
+    $sql = "INSERT INTO clientes (nome, email, telefone,senha) values (?,?,?,?)";
+    $stmt = $conn-> prepare($sql);
+    $stmt -> bind_param('sss', $nome,$email,$telefone,$senha);
+
+
+    if($stmt->execute()){
+        echo "Funcionario cadastrado ";
+        echo '<a href="../index.php">voltar</a>';
+    }else{
+        echo "Erro ao cadastrar" . $stmt->error;
+    }
+   $stmt->close();
+   exit;
+
+   
+
+}
+
 <html lang="pt-br">
 
 <head>
@@ -33,19 +62,19 @@
 
                     <form id="FormsCadastro">
                         <label for="nome">Nome</label>
-                        <input type="text" id="nome" class="CadastroInput" placeholder="Insira seu nome">
+                        <input type="text" id="nome" name="nome" class="CadastroInput" placeholder="Insira seu nome">
                         <br>
 
                         <label for="email">Email:</label>
-                        <input type="email" id="email" class="CadastroInput" placeholder="Insira seu email">
+                        <input type="email" id="email" email="email" class="CadastroInput" placeholder="Insira seu email">
                         <br>
 
                         <label for="telefone">Telefone</label>
-                        <input type="text" id="telefone" class="CadastroInput" placeholder="Insira seu Telefone">
+                        <input type="text" id="telefone" telefone="telefone" class="CadastroInput" placeholder="Insira seu Telefone">
                         <br>
 
                         <label for="senha">Senha</label>
-                        <input type="password" id="senha" class="CadastroInput" placeholder="Insira sua senha">
+                        <input type="password" id="senha" senha="senha" class="CadastroInput" placeholder="Insira sua senha">
                         <br>
                         <br>
                         <button class="ButtonCadastro">CADASTRAR FUNCIONÁRIO</button>
