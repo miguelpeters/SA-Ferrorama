@@ -1,4 +1,4 @@
-CREATE DATABASE Ferrorama_db;
+CREATE DATABASE IF NOT EXISTS Ferrorama_db;
 USE Ferrorama_db;
 
 CREATE TABLE usuarios (
@@ -28,7 +28,7 @@ CREATE TABLE gerentes (
 
 CREATE TABLE estacoes (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    nome VARCHAR(100) NOT NULL,
+    nome VARCHAR(100) NOT NULL
 );
 
 CREATE TABLE trens (
@@ -37,7 +37,6 @@ CREATE TABLE trens (
     estacao_id INT,
     sensor_id INT,
     FOREIGN KEY (estacao_id) REFERENCES estacoes(id),
-    FOREIGN KEY (sensor_id) REFERENCES sensores(id)
 );
 
 
