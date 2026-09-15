@@ -12,13 +12,13 @@
         <a href="../index.php">INDEX</a>
         <br>
 
-        <a href="cadastro_funcionario.php">CADASTRO</a>
+        <a href="cadastro_funcionario.php">CADASTRO_FUNCIONARIO</a>
         <br>
-            <a href="cadastro_usuario.php">CADASTRO</a>
+            <a href="cadastro_usuario.php">CADASTRO_SENSOR</a>
         <br>
-            <a href="cadastro_sensor.php">CADASTRO</a>
+            <a href="cadastro_sensor.php">CADASTRO_USUARIO</a>
         <br>
-        
+
             <a href="home.php">HOME</a>
         <br>
         <a href="login.php">LOGIN</a>
