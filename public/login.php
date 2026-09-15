@@ -34,17 +34,7 @@
                             <label for="password"></label>
                             <input type="password" id="password" class="loginInput" placeholder="SENHA:">
                             <br>
-
-
-                            <a class="loginLink" href="">ESQUECI MINHA SENHA</a>
-                            <br>
-
-                            <div class="flex">
-                                <p class="loginLink">MANTENHA-ME CONECTADO</p>
-                                <input id="checkLogin" type="checkbox">
-                            </div>
-
-
+                            
 
                             <br>
                             <button id="loginLad" class="ButtonCadastro">ENTRAR</button>
