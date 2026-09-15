@@ -5,11 +5,11 @@ include '../infra/conexao.php';
 if($_SERVER["REQUEST_METHOD"] == "POST"){
     $nome = $_POST['nome'];
     $email = $_POST['email'];
-    $telefone = $_POST['telefone'];
+    $telefone = $_POST['numero_telefone'];
     $senha = $_POST['senha'];
 
 
-    $sql = "INSERT INTO clientes (nome, email, telefone,senha) values (?,?,?,?)";
+    $sql = "INSERT INTO funcionarios (nome, email, numero_telefone, senha) values (?,?,?,?)";
     $stmt = $conn-> prepare($sql);
     $stmt -> bind_param('sss', $nome,$email,$telefone,$senha);
 
@@ -26,6 +26,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
    
 
 }
+
+?>
 
 <html lang="pt-br">
 

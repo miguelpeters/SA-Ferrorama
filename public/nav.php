@@ -9,21 +9,27 @@
 <body>
 
     <div>
-        <a href="../index.html">INDEX</a>
+        <a href="../index.php">INDEX</a>
         <br>
-        <a href="cadastro.html">CADASTRO</a>
+
+        <a href="cadastro_funcionario.php">CADASTRO</a>
         <br>
-        <a href="home.html">HOME</a>
+            <a href="cadastro_usuario.php">CADASTRO</a>
         <br>
-        <a href="login.html">LOGIN</a>
+            <a href="cadastro_sensor.php">CADASTRO</a>
         <br>
-        <a href="recuperarSenha.html">RECUPERAR SENHA</a>
+        
+            <a href="home.php">HOME</a>
         <br>
-        <a href="usuarios.html">USUARIOS</a>
+        <a href="login.php">LOGIN</a>
         <br>
-        <a href="cadastrosensor.html">CADASTROSENSORES</a>
+        <a href="recuperarSenha.php">RECUPERAR SENHA</a>
         <br>
-        <a href="sensores.html">SENSOR</a>
+        <a href="usuarios.php">USUARIOS</a>
+        <br>
+        <a href="cadastrosensor.php">CADASTROSENSORES</a>
+        <br>
+        <a href="sensores.php">SENSOR</a>
     </div>
 
 </body>

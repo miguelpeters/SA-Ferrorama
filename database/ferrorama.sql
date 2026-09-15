@@ -36,7 +36,7 @@ CREATE TABLE trens (
     modelo VARCHAR(100) NOT NULL,
     estacao_id INT,
     sensor_id INT,
-    FOREIGN KEY (estacao_id) REFERENCES estacoes(id),
+    FOREIGN KEY (estacao_id) REFERENCES estacoes(id)
 );
 
 

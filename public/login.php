@@ -58,7 +58,7 @@
                 </div>
 
                 <div>
-                    <p class="loginImgText">CONHEÇA NOSSA LINHAS!</p>
+                    <p class="loginImgText">CONHEÇA NOSSAS LINHAS!</p>
                     <div class="ImageLogin">
                         <img id="logImg" src="../assets/imgs/LoginImage.png" alt="Trem Expositivo">
                     </div>
