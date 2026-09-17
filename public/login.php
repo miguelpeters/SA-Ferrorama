@@ -25,10 +25,10 @@
       <form action="login.php" method="post">
 
         <label for="email">Email</label><br>
-        <input type="text" id="email" name="email" placeholder="email"><br><br>
+        <input type="text" id="login-email" name="email" placeholder="email"><br><br>
 
         <label for="senha">Senha</label><br>
-        <input type="password" id="senha" name="senha" placeholder="senha"><br><br>
+        <input type="password" id="login-senha" name="senha" placeholder="senha"><br><br>
 
         <p class="login-detrain-erro" id="mensagem-erro"></p>
 
@@ -45,7 +45,9 @@
       <img src="../assets/imgs/Imagem-login.png" alt="foto do trem">
     </div>
 
- 
+ <footer class= "login-rodape">
+
+ </footer>
 
 
   <script src="script.js"></script>

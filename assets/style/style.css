@@ -392,7 +392,7 @@ button:hover {
 
 .login-detrain-input {
   width: 100%;
-  padding: 20px;
+  padding: 30px;
   margin-top: 5px;
   border: 1px solid #555;
   border-radius: 12px;
@@ -451,11 +451,27 @@ button:hover {
 
 #icon-login {
    width: 80px;
-   margin-right: 1470px;
+   margin-right: 1550px;
    border-radius: 15px;
 }
 
+#login-email {
+   padding: 10px;
+   width: 600px;
+   border-radius: 20px;
+}
+#login-senha {
+   padding: 10px;
+   width: 600px;
+   border-radius: 20px;
+}
 
+.login-rodape {
+   background-color: rgb(2, 80, 63);
+   color: white;
+   font-size: 14px;
+   
+}
 
 
 /* usuarios */
