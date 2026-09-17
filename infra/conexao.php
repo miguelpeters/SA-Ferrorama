@@ -2,7 +2,7 @@
 
 $host = "localhost";
 $usuario = "root";
-$senha = "root";
+$senha = "";
 $banco = "Ferrorama_db";
 
 $conexao = new mysqli($host, $usuario, $senha, $banco);

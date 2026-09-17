@@ -7,11 +7,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     $estacao_id = $_POST['estacao_id'];
     $sensor_id = $_POST['sensor_id'];
 
-
     $sql = "INSERT INTO trem (modelo, estacao_id, sensor_id) values (?,?,?)";
     $stmt = $conn-> prepare($sql);
     $stmt -> bind_param('ss', $modelo,$estacao_id,$sensor_id);
-
 
     if($stmt->execute()){
         echo "Trem cadastrado ";

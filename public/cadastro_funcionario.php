@@ -8,11 +8,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     $telefone = $_POST['numero_telefone'];
     $senha = $_POST['senha'];
 
-
     $sql = "INSERT INTO funcionarios (nome, email, numero_telefone, senha) values (?,?,?,?)";
     $stmt = $conn-> prepare($sql);
     $stmt -> bind_param('sss', $nome,$email,$telefone,$senha);
-
 
     if($stmt->execute()){
         echo "Funcionario cadastrado ";
@@ -21,9 +19,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         echo "Erro ao cadastrar" . $stmt->error;
     }
    $stmt->close();
-   exit;
-
-   
+   exit; 
 
 }
 
