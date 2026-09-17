@@ -12,7 +12,7 @@
 
 <body>
     <header>
-        <nav>
+        <nav class="bodyindex">
             <h1 class="DE-TRAIN">DE-TRAIN</h1>
             <img id="icon" src="assets/imgs/LogoDeTrain.png">
             <h1><a class="EntrarText" href="public/login.php">ENTRAR</a></h1>
@@ -22,19 +22,35 @@
 
     <main>
         <div class="IndexText">
-
         </div>
 
         <div class="flex">
 
             <div class="text">
-                <p>Nossos objetivos:</p>
-                <br>
-                <p>Coletar informações sobre sensores IOTs instalados nos trilhos.</p>
-                <p>Criar uma plataforma para visualização dos relatórios coletados dos IOTs.</p>
             </div>
+            <div class="hero">
+                 <div class="hero-text">
+        <h1>Visualize, acompanhe<br>
+        e analise seus trilhos</h1>
 
-            <img id="IndexImage" src="assets/imgs/IndexImage.png">
+        <p>
+            O DE-TRAIN centraliza as informações dos sensores
+            instalados nos trilhos, trazendo mais segurança,
+            eficiência e controle.
+        </p>
+        <br>
+        <br>
+    
+        <div class="indexbutton">   
+        <a href="./public/home.php" class="indexbutton">
+            Acessar o sistema
+        </a>
+        </div>
+    </div>
+            <div class="hero img">
+                <img id="IndexImage" src="assets/imgs/IndexImage2.0.png">
+            </div>
+            </div>
         </div>
 
 
