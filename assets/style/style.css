@@ -158,6 +158,7 @@ width: 2000px;
     background-color: #00503f;
     color: white;
 
+    border-radius: 50%;
 
     display: flex;
     justify-content: center;
