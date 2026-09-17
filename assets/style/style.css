@@ -239,45 +239,62 @@ button:hover {
 }
 /* Login */
 
-#cabecarioLogin {
-   display: flex;
-   align-items: center;
-   width: 600px;
-   height: 100px;
-
-   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-   background-color: rgb(2, 80, 63);
-   color: rgb(253, 252, 248);
-   font-size: large;
-
-
-
+.paginaLogin {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
+
+.paginaLogin main {
+    flex: 1;
+}
+
+.paginaLogin .flex {
+    display: flex;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#cabecarioLogin {
+    display: flex;
+    align-items: center;
+    width: 600px;
+    height: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(2, 80, 63);
+    color: rgb(253, 252, 248);
+    font-size: large;
+}
+
 
 #test {
    background-color: aqua;
    padding: 100px;
 }
 
-
-.flex {
-   display: flex;
-   padding: 0px;
-   margin-bottom: 0px;
-   padding-bottom: 0px;
-}
-
 .DE-TRAIN_cadastro {
    margin-left: 15px;
 }
 
+a.DE-TRAIN_link,
+a.DE-TRAIN_link:visited,
+a.DE-TRAIN_link:hover,
+a.DE-TRAIN_link:active {
+    color: rgb(253, 252, 248) !important;
+    text-decoration: none !important;
+    font-size: 24px;
+    margin-left: 10px;
+}
 
-.blocoLogin {
-   padding-bottom: 365px;
-   padding-top: 100px;
-   background-color: rgb(4, 107, 85);
-   width: 550px;
-
+.paginaLogin .blocoLogin {
+    background-color: rgb(4, 107, 85);
+    width: 550px;
+    height: 100%;
+    padding-top: 100px;
+    box-sizing: border-box;
+    flex-shrink: 0;
 }
 
 .TextoCadastro {

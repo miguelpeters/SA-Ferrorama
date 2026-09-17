@@ -9,10 +9,10 @@
     <link rel="icon" href="../assets/imgs/LogoDeTrain.png" type="image/x-icon">
 </head>
 
-<body>
+<body class="paginaLogin">
     <header>
         <nav>
-            <h1 class="DE-TRAIN">DE-TRAIN</h1>
+            <a class="DE-TRAIN_link" href="../index.php">DE-TRAIN </a>
             <img id="icon" src="../assets/imgs/LogoDeTrain.png">
         </nav>
     </header>
