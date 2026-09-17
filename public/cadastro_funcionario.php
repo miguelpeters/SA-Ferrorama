@@ -33,7 +33,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <title>Cadastro</title>
     <link rel="stylesheet" href="../assets/style/style.css">
 
-    <link rel="icon" href="../assets/imgs/LogoDeTrain.png" type="image/x-icon">
+    <link rel="icon" href="../assets/imgs/PageIcon.png" type="image/x-icon">
 </head>
 
 <body>
