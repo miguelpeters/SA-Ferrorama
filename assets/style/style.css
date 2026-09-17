@@ -358,11 +358,6 @@ button:hover {
   margin: 0;
 }
 
-.login-detrain-icone-usuario {
-  width: 80px;
-  height: 50px;
-}
-
 .login-detrain-container {
   display: flex;
   background-color: #0c3527;
@@ -460,7 +455,7 @@ button:hover {
    border-radius: 15px;
 }
 
-}
+
 
 
 /* usuarios */

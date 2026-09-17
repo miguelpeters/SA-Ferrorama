@@ -13,7 +13,7 @@
 <div class="login-detrain-topo">
     <p class="login-detrain-logo">DE-TRAIN</p>
     <img id="icon-login" src="../assets/imgs/LogoDeTrain.png">
-    <img src="../assets/imgs/loginIcon.png" alt="icone usuario" class="login-detrain-icone-usuario">
+    
   </div>
 
   <div class="login-detrain-container">
