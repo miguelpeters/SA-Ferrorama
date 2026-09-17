@@ -25,8 +25,6 @@ nav {
 .EntrarText {
    margin-left: 1400px;
    color: white;
-   text-decoration: none;
-
 }
 
 body {
@@ -39,12 +37,68 @@ body {
 }
 
 #IndexImage {
-   margin-top:70px;
-   width: 850px;
+width: 2000px;
+    height: 500px;
+    object-fit: cover;
+    display: block;
+    margin: 0;
+    border: none;
+    border-radius: 0;
+}
 
-   border: 5px solid rgb(2, 70, 49);
-   border-radius: 25px;
+.hero {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
 
+.indexbutton {
+   text-decoration: none;
+   display: inline-block;
+    background-color: #d9ff82;
+    color: #00503f;
+    padding: 16px 28px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.indexbutton:hover {
+    transform: translateY(-3px);
+    background-color: #c5ed70;
+}
+
+.hero-text {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    width: 550px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        90deg,
+        rgba(0, 80, 63, 0.95),
+        rgba(0, 80, 63, 0.35),
+        transparent
+    );
 }
 
 .FakeFooter {
@@ -68,26 +122,67 @@ body {
    margin-left: 1300px;
 }
 
-.text {
-   width: 45%;
-   font-size: 30px;
-   color: rgb(2, 80, 63);
-   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-   margin-left: 15px;
-}
 
 #StrikeImage {
    width: 30px;
 }
 
-.IndexText {}
+.info-section {
+    width: 100%;
+    min-height: 190px;
+    background-color: #fdfdea;
 
-.flex {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 30px 60px;
+    box-sizing: border-box;
+
+    gap: 40px;
 }
+
+.info-card {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+
+    flex: 1;
+    max-width: 330px;
+}
+
+.info-icon {
+    width: 68px;
+    height: 68px;
+
+    background-color: #00503f;
+    color: white;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 32px;
+    flex-shrink: 0;
+}
+
+.info-card h3 {
+    margin: 0 0 12px 0;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #00503f;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.info-card p {
+    margin: 0;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #00503f;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
 
 /* Cadastro */
 
