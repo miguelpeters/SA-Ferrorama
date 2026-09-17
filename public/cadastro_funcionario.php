@@ -1,32 +1,5 @@
 <?php
 
-include '../infra/conexao.php';
-
-if($_SERVER["REQUEST_METHOD"] == "POST"){
-    $nome = $_POST['nome'];
-    $email = $_POST['email'];
-    $telefone = $_POST['numero_telefone'];
-    $senha = $_POST['senha'];
-
-
-    $sql = "INSERT INTO funcionarios (nome, email, numero_telefone, senha) values (?,?,?,?)";
-    $stmt = $conn-> prepare($sql);
-    $stmt -> bind_param('sss', $nome,$email,$telefone,$senha);
-
-
-    if($stmt->execute()){
-        echo "Funcionario cadastrado ";
-        echo '<a href="../index.php">voltar</a>';
-    }else{
-        echo "Erro ao cadastrar" . $stmt->error;
-    }
-   $stmt->close();
-   exit;
-
-   
-
-}
-
 ?>
 
 <html lang="pt-br">
