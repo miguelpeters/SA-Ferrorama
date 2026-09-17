@@ -288,6 +288,13 @@ a.DE-TRAIN_link:active {
     margin-left: 10px;
 }
 
+a.LinkCadastro {
+   display: inline-block;
+   color: white;
+   text-decoration: none;
+   margin-left: 40px;
+   margin-top: 20px;
+}
 .paginaLogin .blocoLogin {
     background-color: rgb(4, 107, 85);
     width: 550px;

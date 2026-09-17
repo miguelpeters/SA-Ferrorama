@@ -40,7 +40,9 @@
                             <button id="loginLad" class="ButtonCadastro">ENTRAR</button>
 
                             <br>
-                            <button id="loginLad" class="ButtonCadastro">Não tem uma conta? Cadastre-se.</button>
+                                <a href="cadastro_usuario.php" class="LinkCadastro">
+                                     Não tem uma conta? Cadastre-se.
+                                </a>
 
 
 
