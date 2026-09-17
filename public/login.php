@@ -9,60 +9,45 @@
     <link rel="icon" href="../assets/imgs/LogoDeTrain.png" type="image/x-icon">
 </head>
 
-<body class="paginaLogin">
-    <header>
-        <nav>
-            <a class="DE-TRAIN_link" href="../index.php">DE-TRAIN </a>
-            <img id="icon" src="../assets/imgs/LogoDeTrain.png">
-        </nav>
-    </header>
+<body class="bodyLogin">
+<div class="login-detrain-topo">
+    <p class="login-detrain-logo">DE-TRAIN</p>
+    <img id="icon-login" src="../assets/imgs/LogoDeTrain.png">
+    <img src="../assets/imgs/loginIcon.png" alt="icone usuario" class="login-detrain-icone-usuario">
+  </div>
 
-    <main>
-        <div>
-            <div class="flex">
-                <div class="blocoLogin">
-                    <div>
+  <div class="login-detrain-container">
 
-                        <h2 id="loginTitulo">BEM VINDO!</h2>
+    <div class="login-detrain-caixa">
+      <p class="login-detrain-titulo">BEM <span class="verde">VINDO!</span></p>
+      <p class="login-detrain-subtexto">Faça login para acessar o sistema e gerenciar seus trilhos.</p>
 
+      <form action="login.php" method="post">
 
-                        <form id="FormsLogin">
-                            <label for="email"></label>
-                            <input type="email" id="email" class="loginInput" placeholder="EMAIL:">
-                            <br>
+        <label for="email">Email</label><br>
+        <input type="text" id="email" name="email" placeholder="email"><br><br>
 
-                            <label for="password"></label>
-                            <input type="password" id="password" class="loginInput" placeholder="SENHA:">
-                            <br>
-                            
+        <label for="senha">Senha</label><br>
+        <input type="password" id="senha" name="senha" placeholder="senha"><br><br>
 
-                            <br>
-                            <button id="loginLad" class="ButtonCadastro">ENTRAR</button>
+        <p class="login-detrain-erro" id="mensagem-erro"></p>
 
-                            <br>
-                                <a href="cadastro_usuario.php" class="LinkCadastro">
-                                     Não tem uma conta? Cadastre-se.
-                                </a>
+        <button type="submit" class="login-detrain-botao">ENTRAR</button>
 
+      </form>
 
+      <p class="login-detrain-cadastro">
+        Não tem uma conta? <a href="cadastro.html">Cadastre-se.</a>
+      </p>
+    </div>
 
-                        </form>
+    <div class="login-detrain-imagem">
+      <img src="../assets/imgs/Imagem-login.png" alt="foto do trem">
+    </div>
 
-                    </div>
-
-                </div>
-
-                <div>
-                    <p class="loginImgText">CONHEÇA NOSSAS LINHAS!</p>
-                    <div class="ImageLogin">
-                        <img id="logImg" src="../assets/imgs/LoginImage.png" alt="Trem Expositivo">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
+ 
 
 
+  <script src="script.js"></script>
 </body>
-
 </html>

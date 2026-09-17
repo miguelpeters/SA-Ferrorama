@@ -25,6 +25,7 @@ nav {
 .EntrarText {
    margin-left: 1400px;
    color: white;
+   text-decoration: none;
 }
 
 body {
@@ -335,152 +336,131 @@ button:hover {
 }
 /* Login */
 
-.paginaLogin {
-    margin: 0;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+.bodyLogin {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f2f2f2;
 }
 
-.paginaLogin main {
-    flex: 1;
+.login-detrain-topo {
+  background-color: rgb(2, 80, 63);
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.paginaLogin .flex {
-    display: flex;
-    height: 100%;
-    padding: 0;
-    margin: 0;
+.login-detrain-logo {
+  color: white;
+  font-size: 33px;
+  font-weight: bold;
+  margin: 0;
 }
 
-#cabecarioLogin {
-    display: flex;
-    align-items: center;
-    width: 600px;
-    height: 100px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: rgb(2, 80, 63);
-    color: rgb(253, 252, 248);
-    font-size: large;
+.login-detrain-icone-usuario {
+  width: 80px;
+  height: 50px;
 }
 
-
-#test {
-   background-color: aqua;
-   padding: 100px;
+.login-detrain-container {
+  display: flex;
+  background-color: #0c3527;
 }
 
-.DE-TRAIN_cadastro {
-   margin-left: 15px;
+.login-detrain-caixa {
+  width: 45%;
+  padding: 60px;
+  color: white;
 }
 
-a.DE-TRAIN_link,
-a.DE-TRAIN_link:visited,
-a.DE-TRAIN_link:hover,
-a.DE-TRAIN_link:active {
-    color: rgb(253, 252, 248) !important;
-    text-decoration: none !important;
-    font-size: 24px;
-    margin-left: 10px;
+.login-detrain-titulo {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
-a.LinkCadastro {
-   display: inline-block;
-   color: white;
-   text-decoration: none;
-   margin-left: 40px;
-   margin-top: 20px;
-}
-.paginaLogin .blocoLogin {
-    background-color: rgb(4, 107, 85);
-    width: 550px;
-    height: 100%;
-    padding-top: 100px;
-    box-sizing: border-box;
-    flex-shrink: 0;
+.login-detrain-verde {
+  color: #c6f24e;
 }
 
-.TextoCadastro {
-   padding-top: 20px;
-   padding-left: 40px;
-   font-size: 20px;
+.login-detrain-subtexto {
+  color: #cccccc;
+  font-size: 15px;
+  margin-bottom: 30px;
 }
 
-.ImageLogin {
-   margin-right: 270px;
-   border: 5px solid rgb(2, 70, 49);
-   border-radius: 5px;
+.login-detrain-label {
+  color: #cccccc;
+  font-size: 13px;
 }
 
-#LoginTitulo {
-   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-   color: rgb(253, 252, 248);
-   font-size: 40px;
-   margin-bottom: 25px;
-   text-align: center;
-
+.login-detrain-input {
+  width: 100%;
+  padding: 20px;
+  margin-top: 5px;
+  border: 1px solid #555;
+  border-radius: 12px;
+  background-color: #123f2f;
+  color: white;
 }
 
-.loginInput {
-   border: none;
-   padding-left: 10px;
-   border-radius: 3px;
-   margin: 5px;
-   cursor: pointer;
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   width: 70%;
-   width: 70%;
-   padding: 8px;
-   margin: 8px 0 15px 0;
-   border-radius: 8px;
-   background-color: #044d44;
-   color: white;
-   outline: none;
-   font-size: 25px;
-   padding-left: 15px;
-   margin-left: 40px;
-}
-                                   
-#FormsLogin {
-   justify-content: center;
-   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-   color: rgb(253, 252, 248);
+.login-detrain-input::placeholder {
+  color: #999;
 }
 
-.loginLink {
-   color: rgb(253, 252, 248);
-   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-   font-size: 25px;
-   margin-left: 40px;
+.login-detrain-erro {
+  color: red;
+  font-size: 13px;
 }
 
-#loginLad {
-   margin-left: 40px;
+.login-detrain-botao {
+  width: 100%;
+  padding: 14px;
+  background-color: #c6f24e;
+  color: #0c3527;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.login-detrain-botao:hover {
+  background-color: #a9d93e;
+}
+
+.login-detrain-cadastro {
+  margin-top: 20px;
+  color: #cccccc;
+  font-size: 14px;
+}
+
+.login-detrain-cadastro a {
+  color: #c6f24e;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.login-detrain-imagem {
+  width: 100%;
+}
+
+.login-detrain-imagem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 
 }
 
-.loginImgText {
-   justify-content: center;
-   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-   color: #044d44;
-   font-size: 35px;
 
-   margin-left: 200px;
+#icon-login {
+   width: 80px;
+   margin-right: 1470px;
+   border-radius: 15px;
 }
 
-#logImg {
-   height: 500px;
 }
-
-#checkLogin {
-   display: inline-block;
-   cursor: pointer;
-}
-
-#checkLogin input {
-   display: none;
-}
-
 
 
 /* usuarios */
