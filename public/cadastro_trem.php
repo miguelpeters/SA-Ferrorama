@@ -40,7 +40,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         <nav>
             <h1 class="DE-TRAIN">DE-TRAIN</h1>
             <img id="icon" src="../assets/imgs/LogoDeTrain.png">
-            <h1><a class="EntrarText" href="../public/home.html">VOLTAR</a></h1>
+            <h1><a class="EntrarText" href="../public/home.php">VOLTAR</a></h1>
             <img id="LoginIcon" src="../assets/imgs/VoltarIcon.png">
         </nav>
 
@@ -53,7 +53,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
                 <div class="Cadastro">
 
-                    <h2 id="CadastroTitulo">Cadastro de Trem</h2>
+                    <h2 id="CadastroTitulo">Cadastrar Trem</h2>
 
                     <form id="FormsCadastro">
                         <label for="modelo">Modelo</label>

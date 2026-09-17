@@ -14,7 +14,7 @@
         <nav>
             <h1 class="DE-TRAIN">DE-TRAIN</h1>
             <img id="icon" src="../assets/imgs/LogoDeTrain.png">
-            <h1><a class="EntrarText" href="../public/home.html">VOLTAR</a></h1>
+            <h1><a class="EntrarText" href="../public/home.php">VOLTAR</a></h1>
             <img id="LoginIcon" src="../assets/imgs/VoltarIcon.png">
         </nav>
 
@@ -36,11 +36,11 @@
                         <input type="text" id="nome" class="CadastroInput" placeholder="Insira seu nome">
                         <br>
 
-                        <label for="ID">ID:</label>
+                        <label for="ID">ID</label>
                         <input type="text" id="Id" class="CadastroInput" placeholder="Insira o ID">
                         <br>
 
-                        <label for="tipo">Senha</label>
+                        <label for="tipo">Tipo</label>
                         <input type="text" id="tipo" class="CadastroInput" placeholder="Insira o Tipo do Sensor">
                         <br>
                         <br>
