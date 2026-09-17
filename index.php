@@ -53,6 +53,42 @@
             </div>
         </div>
 
+        <section class="info-section">
+
+    <div class="info-card">
+        <div class="info-icon">I</div>
+        <div>
+            <h3>Sensores IoT</h3>
+            <p>Dados em tempo real<br>sobre os trilhos.</p>
+        </div>
+    </div>
+
+    <div class="info-card">
+        <div class="info-icon">R</div>
+        <div>
+            <h3>Relatórios</h3>
+            <p>Visualize os dados coletados<br>em gráficos e tabelas.</p>
+        </div>
+    </div>
+
+    <div class="info-card">
+        <div class="info-icon">S</div>
+        <div>
+            <h3>Mais Segurança</h3>
+            <p>Identifique falhas e previna<br>problemas antes que aconteçam.</p>
+        </div>
+    </div>
+
+    <div class="info-card">
+        <div class="info-icon">G</div>
+        <div>
+            <h3>Gestão Inteligente</h3>
+            <p>Decisões mais rápidas<br>e precisas para o seu sistema.</p>
+        </div>
+    </div>
+
+</section>
+    
 
     </main>
 
