@@ -1,5 +1,27 @@
 <?php
 
+include '../infra/conexao.php';
+
+if($_SERVER["REQUEST_METHOD"] == "POST"){
+    $modelo = $_POST['modelo'];
+    $estacao_id = $_POST['estacao_id'];
+    $sensor_id = $_POST['sensor_id'];
+
+    $sql = "INSERT INTO trem (modelo, estacao_id, sensor_id) values (?,?,?)";
+    $stmt = $conn-> prepare($sql);
+    $stmt -> bind_param('ss', $modelo,$estacao_id,$sensor_id);
+
+    if($stmt->execute()){
+        echo "Trem cadastrado ";
+        echo '<a href="../index.php">voltar</a>';
+    }else{
+        echo "Erro ao cadastrar" . $stmt->error;
+    }
+   $stmt->close();
+   exit;
+
+}
+
 ?>
 
 <html lang="pt-br">
