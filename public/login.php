@@ -39,6 +39,9 @@
                             <br>
                             <button id="loginLad" class="ButtonCadastro">ENTRAR</button>
 
+                            <br>
+                            <button id="loginLad" class="ButtonCadastro">Não tem uma conta? Cadastre-se.</button>
+
 
 
                         </form>

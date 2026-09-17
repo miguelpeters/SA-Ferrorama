@@ -250,17 +250,21 @@ button:hover {
    color: rgb(253, 252, 248);
    font-size: large;
 
+
+
 }
 
 #test {
    background-color: aqua;
-   padding: 300px;
+   padding: 100px;
 }
 
 
 .flex {
    display: flex;
    padding: 0px;
+   margin-bottom: 0px;
+   padding-bottom: 0px;
 }
 
 .DE-TRAIN_cadastro {
@@ -269,14 +273,21 @@ button:hover {
 
 
 .blocoLogin {
-   padding-bottom: 640px;
+   padding-bottom: 365px;
+   padding-top: 100px;
    background-color: rgb(4, 107, 85);
    width: 550px;
 
 }
 
+.TextoCadastro {
+   padding-top: 20px;
+   padding-left: 40px;
+   font-size: 20px;
+}
+
 .ImageLogin {
-   margin-right: 200px;
+   margin-right: 270px;
    border: 5px solid rgb(2, 70, 49);
    border-radius: 5px;
 }
@@ -349,6 +360,8 @@ button:hover {
 #checkLogin input {
    display: none;
 }
+
+
 
 /* usuarios */
 
