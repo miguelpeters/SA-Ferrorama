@@ -8,19 +8,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro</title>
+    <title>Cadastro de usuário</title>
     <link rel="stylesheet" href="../assets/style/style.css">
 
     <link rel="icon" href="../assets/imgs/LogoDeTrain.png" type="image/x-icon">
 </head>
 
 <body>
-    <header>
+    <header class="header-cadastro">
         <nav>
-            <h1 class="DE-TRAIN">DE-TRAIN</h1>
+            <a class="login-detrain-logo" href="../index.php">DE-TRAIN</a>
             <img id="icon" src="../assets/imgs/LogoDeTrain.png">
-            <h1><a class="EntrarText" href="../public/home.html">VOLTAR</a></h1>
-            <img id="LoginIcon" src="../assets/imgs/VoltarIcon.png">
         </nav>
 
 
@@ -34,7 +32,7 @@
 
                 <div class="Cadastro">
 
-                    <h2 id="CadastroTitulo">Cadastro</h2>
+                    <h2 id="CadastroTitulo">Cadastro de usuário</h2>
 
                     <form id="FormsCadastro">
                         <label for="nome">Nome</label>

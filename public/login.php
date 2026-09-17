@@ -11,7 +11,7 @@
 
 <body class="bodyLogin">
 <div class="login-detrain-topo">
-    <p class="login-detrain-logo">DE-TRAIN</p>
+    <a class="login-detrain-logo" href="../index.php">DE-TRAIN</a>
     <img id="icon-login" src="../assets/imgs/LogoDeTrain.png">
     
   </div>
@@ -37,7 +37,7 @@
       </form>
 
       <p class="login-detrain-cadastro">
-        Não tem uma conta? <a href="cadastro.html">Cadastre-se.</a>
+        Não tem uma conta? <a href="cadastro_usuario.php">Cadastre-se.</a>
       </p>
     </div>
 

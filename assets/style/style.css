@@ -209,6 +209,10 @@ width: 2000px;
 
 }
 
+.header-cadastro {
+
+}
+
 #FormsCadastro {
 
    justify-content: center;
@@ -294,7 +298,7 @@ button:hover {
 }
 
 .logo{
-    height: 50px;
+    height: 70px;
 }
 
 .menu{
@@ -356,6 +360,7 @@ button:hover {
   font-size: 33px;
   font-weight: bold;
   margin: 0;
+  text-decoration: none;
 }
 
 .login-detrain-container {
@@ -451,7 +456,7 @@ button:hover {
 
 #icon-login {
    width: 80px;
-   margin-right: 1550px;
+   margin-right: 1590px;
    border-radius: 15px;
 }
 
