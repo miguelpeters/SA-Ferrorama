@@ -25,10 +25,10 @@
       <form action="login.php" method="post">
 
         <label for="email">Email</label><br>
-        <input type="text" id="login-email" name="email" placeholder="email"><br><br>
+        <input type="text" id="login-email" name="email" placeholder="seuemail@exemplo.com"><br><br>
 
         <label for="senha">Senha</label><br>
-        <input type="password" id="login-senha" name="senha" placeholder="senha"><br><br>
+        <input type="password" id="login-senha" name="senha" placeholder="Sua Senha"><br><br>
 
         <p class="login-detrain-erro" id="mensagem-erro"></p>
 

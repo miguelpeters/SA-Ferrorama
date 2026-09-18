@@ -209,9 +209,6 @@ width: 2000px;
 
 }
 
-.header-cadastro {
-
-}
 
 #FormsCadastro {
 
@@ -370,8 +367,10 @@ button:hover {
 
 .login-detrain-caixa {
   width: 45%;
+  height: 100px;
   padding: 60px;
   color: white;
+
 }
 
 .login-detrain-titulo {
@@ -387,7 +386,7 @@ button:hover {
 .login-detrain-subtexto {
   color: #cccccc;
   font-size: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .login-detrain-label {
@@ -398,7 +397,7 @@ button:hover {
 .login-detrain-input {
   width: 100%;
   padding: 30px;
-  margin-top: 5px;
+  margin-top: 10px;
   border: 1px solid #555;
   border-radius: 12px;
   background-color: #123f2f;
@@ -444,12 +443,15 @@ button:hover {
 
 .login-detrain-imagem {
   width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
 .login-detrain-imagem img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  overflow: hidden;
 
 }
 
@@ -472,12 +474,18 @@ button:hover {
 }
 
 .login-rodape {
-   background-color: rgb(2, 80, 63);
-   color: rgb(2, 80, 63);
+    min-height: calc(100vh - 120px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   background-color: rgb(253, 252, 248);
    font-size: 14px;
    
 }
 
+.verde {
+   color:#a9d93e;
+}
 
 /* usuarios */
 
