@@ -291,10 +291,21 @@ button:hover {
     padding: 0 15px;
 }
 
+
+
 .lado-esquerdo{
     display: flex;
     align-items: center;
     gap: 20px;
+}
+
+.home-detrain-logo {
+  color: white;
+  font-size: 33px;
+  font-weight: bold;
+  margin: 0;
+  text-decoration: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .logo{
@@ -325,6 +336,13 @@ button:hover {
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    font-size: x-large;
 }
+
+.EntrarText_home {
+   font-size: 30px;
+   text-decoration: none;
+   color: white;
+}
+
 
 .perfil{
     height: 45px;

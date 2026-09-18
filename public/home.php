@@ -14,21 +14,17 @@
     <header class="cabecalho">
     
     <div class="lado-esquerdo">
-        <h1 class="DE-TRAIN2">DE-TRAIN</h1>
+        <a class="home-detrain-logo" href="../index.php">DE-TRAIN</a>
         <img id="icon" src="../assets/imgs/LogoDeTrain.png" class="logo">
 
         <nav class="menu">
            
-            <a href="../public/cadastro.html">CADASTRAR FUNCIONÁRIO</a>
-            <br>
-            <a href="../public/usuarios.html">VISUALIZAR FUNCIONÁRIOS</a>
-            <br>
             
         </nav>
     </div>
 
     <div class="lado-direito">
-        <span>FULANO DE TAL - FUNCIONÁRIO</span>
+        <h1><a class="EntrarText_home" href="login.php">ENTRAR</a></h1>
         <img src="../assets/imgs/LoginIcon.png" class="perfil">
     </div>
 

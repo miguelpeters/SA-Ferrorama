@@ -42,7 +42,7 @@
         <br>
     
         <div class="indexbutton">   
-        <a href="./public/home.php" class="indexbutton">
+        <a href="public/home.php" class="indexbutton">
             Acessar o sistema
         </a>
         </div>
