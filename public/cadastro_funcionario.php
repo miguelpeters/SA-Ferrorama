@@ -41,8 +41,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         <nav>
             <h1 class="DE-TRAIN">DE-TRAIN</h1>
             <img id="icon" src="../assets/imgs/LogoDeTrain.png">
-            <h1><a class="EntrarText" href="../public/home.php">VOLTAR</a></h1>
-            <img id="LoginIcon" src="../assets/imgs/VoltarIcon.png">
         </nav>
 
 
