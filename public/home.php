@@ -9,7 +9,7 @@
     <link rel="icon" href="../assets/imgs/PageIcon.png" type="image/x-icon">
 </head>
 
-<body>
+<body class="body_home">
 
     <header class="cabecalho">
     
@@ -30,7 +30,21 @@
 
 </header>
 
+<main class="main_home">
+    <img src="../assets/imgs/sistema-metrô-joinvilense.webp" alt="Linhas" class="linhas_home">
+</main>
+
+
+<footer class="footer_home">
+
+        <h2 class="slogan_footer_home">Melhor ir DE-TRAIN!</h2>
+
+
+</footer>
 
 </body>
+
+
+
 
 </html>

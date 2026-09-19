@@ -363,6 +363,8 @@ button:hover {
 
 /* Home */
 
+
+
 .cabecalho{
     background-color: rgb(2, 80, 63);
     height: 75px;
@@ -374,7 +376,13 @@ button:hover {
     padding: 0 15px;
 }
 
-
+.body_home{
+   background-color: #0c3527;
+   margin: 0;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+}
 
 .lado-esquerdo{
     display: flex;
@@ -439,6 +447,40 @@ button:hover {
    color: rgb(253, 252, 248);
    font-size: xx-large;
 }
+
+.footer_home {
+
+   background-color: rgb(2, 80, 63);
+   margin-top: auto;
+
+}
+
+.slogan_footer_home {
+
+   color: white;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   margin-left: 10px;
+}
+
+.main_home{
+   flex: 1;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.linhas_home{
+
+   width: 600px;
+   display: block;
+   margin: 30px auto;
+   
+   border: 4px solid rgb(2, 80, 63);
+   border-radius: 15px;
+   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+
+}
+
 /* Login */
 
 .bodyLogin {
