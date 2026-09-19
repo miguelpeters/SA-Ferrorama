@@ -35,15 +35,12 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <link rel="icon" href="../assets/imgs/LogoDeTrain.png" type="image/x-icon">
 </head>
 
-<body>
-    <header>
-        <nav>
-            <h1 class="DE-TRAIN">DE-TRAIN</h1>
-            <img id="icon" src="../assets/imgs/LogoDeTrain.png">
-        </nav>
+<body class="bodyCadastro">
 
-    </header>
-
+<div class="cadastro-detrain-topo">
+    <a class="login-detrain-logo" href="../index.php">DE-TRAIN</a>
+    <img id="icon-login" src="../assets/imgs/LogoDeTrain.png">
+  </div>
     <main>
 
         <div id="centrobloco">
@@ -55,15 +52,15 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
                     <form id="FormsCadastro">
                         <label for="modelo">Modelo</label>
-                        <input type="text" id="modelo" name="modelo" class="CadastroInput" placeholder="Insira o modelo do trem">
+                        <input type="text" id="cadastro-modelo" name="modelo" class="CadastroInput" placeholder="Modelo do trem">
                         <br>
 
                         <label for="estacao_id">Estação</label>
-                        <input type="text" id="estacao_id" name="estacao_id" class="CadastroInput" placeholder="Insira o ID da estação">
+                        <input type="text" id="cadastro-estacao" name="estacao_id" class="CadastroInput" placeholder="ID da estação">
                         <br>
 
                         <label for="sensor_id">Sensor</label>
-                        <input type="text" id="sensor_id" name="sensor_id" class="CadastroInput" placeholder="Insira o ID do sensor">
+                        <input type="text" id="cadastro-sensor" name="sensor_id" class="CadastroInput" placeholder="ID do sensor">
                         <br>
                         <br>
                         <button class="ButtonCadastro">CADASTRAR TREM</button>

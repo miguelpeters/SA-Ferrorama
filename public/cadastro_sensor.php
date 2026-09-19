@@ -36,16 +36,12 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <link rel="icon" href="../assets/imgs/LogoDeTrain.png" type="image/x-icon">
 </head>
 
-<body>
-    <header>
-        <nav>
-            <h1 class="DE-TRAIN">DE-TRAIN</h1>
-            <img id="icon" src="../assets/imgs/LogoDeTrain.png">
-        </nav>
+<body class="bodyCadastro">
 
-
-    </header>
-
+<div class="cadastro-detrain-topo">
+    <a class="login-detrain-logo" href="../index.php">DE-TRAIN</a>
+    <img id="icon-login" src="../assets/imgs/LogoDeTrain.png">
+  </div>
     <main>
 
         <div id="centrobloco">
@@ -57,18 +53,18 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
                     <form id="FormsCadastro">
                         <label for="nome">Nome</label>
-                        <input type="text" id="nome" class="CadastroInput" placeholder="Insira seu nome">
+                        <input type="text" id="cadastro-nome" class="CadastroInput" placeholder="Nome do sensor">
                         <br>
 
                         <label for="ID">ID</label>
-                        <input type="text" id="Id" class="CadastroInput" placeholder="Insira o ID">
+                        <input type="text" id="cadastro-id" class="CadastroInput" placeholder="ID do sensor">
                         <br>
 
                         <label for="tipo">Tipo</label>
-                        <input type="text" id="tipo" class="CadastroInput" placeholder="Insira o Tipo do Sensor">
+                        <input type="text" id="cadastro-tipo" class="CadastroInput" placeholder="Tipo do sensor">
                         <br>
                         <br>
-                        <button class="ButtonCadastroS">CADASTRAR SENSOR</button>
+                        <button class="ButtonCadastro">CADASTRAR SENSOR</button>
 
                     </form>
 

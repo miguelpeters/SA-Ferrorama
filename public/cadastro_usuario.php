@@ -14,17 +14,12 @@
     <link rel="icon" href="../assets/imgs/LogoDeTrain.png" type="image/x-icon">
 </head>
 
-<body>
-    <header class="header-cadastro">
-        <nav>
-            <a class="login-detrain-logo" href="../index.php">DE-TRAIN</a>
-            <img id="icon" src="../assets/imgs/LogoDeTrain.png">
-        </nav>
+<body class="bodyCadastro">
 
-
-
-    </header>
-
+<div class="cadastro-detrain-topo">
+    <a class="login-detrain-logo" href="../index.php">DE-TRAIN</a>
+    <img id="icon-login" src="../assets/imgs/LogoDeTrain.png">
+  </div>
     <main>
 
         <div id="centrobloco">
@@ -35,20 +30,20 @@
                     <h2 id="CadastroTitulo">Cadastro de usuário</h2>
 
                     <form id="FormsCadastro">
-                        <label for="nome">Nome</label>
-                        <input type="text" id="nome" name="nome" class="CadastroInput" placeholder="Insira seu nome">
+                        <label for="nome" id="CadastroLabel">Nome</label>
+                        <input type="text" id="cadastro-nome" name="nome" class="CadastroInput" placeholder="Seu nome">
                         <br>
 
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" email="email" class="CadastroInput" placeholder="Insira seu email">
+                        <label for="email" id="CadastroLabel">Email</label>
+                        <input type="email" id="cadastro-email" name="email" class="CadastroInput" placeholder="Seu email">
                         <br>
 
-                        <label for="telefone">Telefone</label>
-                        <input type="text" id="telefone" telefone="telefone" class="CadastroInput" placeholder="Insira seu Telefone">
+                        <label for="telefone" id="CadastroLabel">Telefone</label>
+                        <input type="text" id="cadastro-telefone" name="numero_telefone" class="CadastroInput" placeholder="Seu telefone">
                         <br>
 
-                        <label for="senha">Senha</label>
-                        <input type="password" id="senha" senha="senha" class="CadastroInput" placeholder="Insira sua senha">
+                        <label for="senha" id="CadastroLabel">Senha</label>
+                        <input type="password" id="cadastro-senha" name="senha" class="CadastroInput" placeholder="Sua senha">
                         <br>
                         <br>
                         <button class="ButtonCadastro">CADASTRAR USUÁRIO</button>

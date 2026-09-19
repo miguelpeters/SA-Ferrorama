@@ -19,6 +19,8 @@
         <br>
         <a href="cadastro_estacao.php">CADASTRO_ESTACAO</a>
         <br>
+        <a href="cadastro_trem.php">CADASTRO_TREM</a>
+        <br>
         <a href="home.php">HOME</a>
         <br>
         <a href="login.php">LOGIN</a>

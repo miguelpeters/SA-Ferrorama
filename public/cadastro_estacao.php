@@ -34,16 +34,12 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <link rel="icon" href="../assets/imgs/PageIcon.png" type="image/x-icon">
 </head>
 
-<body>    
-    <header>
-        <nav>
-            <h1 class="DE-TRAIN">DE-TRAIN</h1>
-            <img id="icon" src="../assets/imgs/LogoDeTrain.png">
-        </nav>
-    </header>
+<body class="bodyCadastro">  
 
-    <main>
-
+<div class="cadastro-detrain-topo">
+    <a class="login-detrain-logo" href="../index.php">DE-TRAIN</a>
+    <img id="icon-login" src="../assets/imgs/LogoDeTrain.png">
+  </div>
     <main>
 
         <div id="centrobloco">
@@ -54,12 +50,12 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                     <h2 id="CadastroTitulo">Cadastrar Estação</h2>
 
                     <form id="FormsCadastro">
-                        <label for="id">ID</label>
-                        <input type="text" id="id" name="id" class="CadastroInput" placeholder="Insira o ID da estação">
+                        <label for="id" id="CadastroLabel">ID</label>
+                        <input type="text" id="cadastro-id" name="id" class="CadastroInput" placeholder="ID da estação">
                         <br>
 
-                        <label for="nome">Nome</label>
-                        <input type="text" id="nome" name="nome" class="CadastroInput" placeholder="Insira o nome da estação">
+                        <label for="nome" id="CadastroLabel">Nome</label>
+                        <input type="text" id="cadastro-nome" name="nome" class="CadastroInput" placeholder="Nome da estação">
                         <br>
 
                         <br>
