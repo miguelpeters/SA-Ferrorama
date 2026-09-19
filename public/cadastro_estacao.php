@@ -30,6 +30,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de Estação</title>
+    <link rel="stylesheet" href="../assets/style/style.css">
+    <link rel="icon" href="../assets/imgs/PageIcon.png" type="image/x-icon">
 </head>
 
 <body>    
@@ -42,6 +44,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
     <main>
 
+    <main>
+
         <div id="centrobloco">
             <div id="BlocoCadastro">
 
@@ -49,11 +53,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
                     <h2 id="CadastroTitulo">Cadastrar Estação</h2>
 
+                    <form id="FormsCadastro">
                         <label for="id">ID</label>
                         <input type="text" id="id" name="id" class="CadastroInput" placeholder="Insira o ID da estação">
                         <br>
-                
-                    <form id="FormsCadastro">
+
                         <label for="nome">Nome</label>
                         <input type="text" id="nome" name="nome" class="CadastroInput" placeholder="Insira o nome da estação">
                         <br>
@@ -69,6 +73,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         </div>
 
     </main>
-
 </body>
+
 </html>

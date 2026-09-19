@@ -32,20 +32,15 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de Funcionário</title>
     <link rel="stylesheet" href="../assets/style/style.css">
-
     <link rel="icon" href="../assets/imgs/PageIcon.png" type="image/x-icon">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <h1 class="DE-TRAIN">DE-TRAIN</h1>
-            <img id="icon" src="../assets/imgs/LogoDeTrain.png">
-        </nav>
-
-
-
-    </header>
+<div class="login-detrain-topo">
+    <a class="login-detrain-logo" href="../index.php">DE-TRAIN</a>
+    <img id="icon-login" src="../assets/imgs/LogoDeTrain.png">
+    
+  </div>
 
     <main>
 

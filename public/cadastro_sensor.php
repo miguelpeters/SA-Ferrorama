@@ -1,3 +1,30 @@
+<?php
+
+include '../infra/conexao.php';
+
+if($_SERVER["REQUEST_METHOD"] == "POST"){
+    $id = $_POST['id'];
+    $nome = $_POST['nome'];
+    $tipo = $_POST['tipo'];
+    $trem_id = $_POST['trem_id'];
+
+    $sql = "INSERT INTO sensores (id, nome, tipo, trem_id) values (?,?,?,?)";
+    $stmt = $conn-> prepare($sql);
+    $stmt -> bind_param('ssss', $id, $nome, $tipo, $trem_id);
+
+    if($stmt->execute()){
+        echo "Sensor cadastrado ";
+        echo '<a href="../index.php">voltar</a>';
+    }else{
+        echo "Erro ao cadastrar" . $stmt->error;
+    }
+   $stmt->close();
+   exit; 
+
+}
+
+?>
+
 <html lang="pt-br">
 
 <head>
@@ -15,7 +42,6 @@
             <h1 class="DE-TRAIN">DE-TRAIN</h1>
             <img id="icon" src="../assets/imgs/LogoDeTrain.png">
         </nav>
-
 
 
     </header>
