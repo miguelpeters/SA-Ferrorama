@@ -31,21 +31,25 @@
 
                     <form id="FormsCadastro">
                         <label for="nome" id="CadastroLabel">Nome</label>
+                        <br>
                         <input type="text" id="cadastro-nome" name="nome" class="CadastroInput" placeholder="Seu nome">
                         <br>
 
                         <label for="email" id="CadastroLabel">Email</label>
+                        <br>
                         <input type="email" id="cadastro-email" name="email" class="CadastroInput" placeholder="Seu email">
                         <br>
 
                         <label for="telefone" id="CadastroLabel">Telefone</label>
+                        <br>
                         <input type="text" id="cadastro-telefone" name="numero_telefone" class="CadastroInput" placeholder="Seu telefone">
                         <br>
 
                         <label for="senha" id="CadastroLabel">Senha</label>
+                        <br>
                         <input type="password" id="cadastro-senha" name="senha" class="CadastroInput" placeholder="Sua senha">
                         <br>
-                        <br>
+    
                         <button class="ButtonCadastro">CADASTRAR USUÁRIO</button>
 
                     </form>
