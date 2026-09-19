@@ -11,15 +11,15 @@
     <div>
         <a href="../index.php">INDEX</a>
         <br>
-
         <a href="cadastro_funcionario.php">CADASTRO_FUNCIONARIO</a>
         <br>
-            <a href="cadastro_usuario.php">CADASTRO_SENSOR</a>
+        <a href="cadastro_usuario.php">CADASTRO_USUARIO</a>
         <br>
-            <a href="cadastro_sensor.php">CADASTRO_USUARIO</a>
+        <a href="cadastro_sensor.php">CADASTRO_SENSOR</a>
         <br>
-
-            <a href="home.php">HOME</a>
+        <a href="cadastro_estacao.php">CADASTRO_ESTACAO</a>
+        <br>
+        <a href="home.php">HOME</a>
         <br>
         <a href="login.php">LOGIN</a>
         <br>
@@ -27,9 +27,10 @@
         <br>
         <a href="usuarios.php">USUARIOS</a>
         <br>
-        <a href="cadastrosensor.php">CADASTROSENSORES</a>
+        <a href="visualizar_sensor.php">VISUALIZAR_SENSOR</a>
         <br>
-        <a href="sensores.php">SENSOR</a>
+        <a href="visualizar_usuario.php">VISUALIZAR_USUARIO</a>
+
     </div>
 
 </body>
